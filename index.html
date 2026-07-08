@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sky Quest - Number Adventure</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+
+<!-- SKY ELEMENTS -->
+
+<div class="sun"></div>
+
+<div class="cloud cloud1">☁️</div>
+
+<div class="cloud cloud2">☁️</div>
+
+<div class="cloud cloud3">☁️</div>
+
+
+
+<!-- WELCOME SCREEN -->
+
+<div id="welcome-screen">
+
+
+<div class="welcome-card">
+
+
+<h1>
+☁️ SKY QUEST
+</h1>
+
+
+<h2>
+Number Adventure
+</h2>
+
+
+<p class="tagline">
+
+"Discover the hidden number in the clouds!"
+
+</p>
+
+
+<p class="description">
+
+Challenge yourself, choose your level,
+and become the master of numbers.
+
+</p>
+
+
+<button id="start-btn">
+
+🚀 Start Adventure
+
+</button>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<!-- GAME SCREEN -->
+
+
+<div id="game-screen" class="hidden">
+
+
+
+<header>
+
+
+<h1>
+☁️ Sky Quest
+</h1>
+
+
+<p>
+🎯 Hidden Number Challenge
+</p>
+
+
+</header>
+
+
+
+
+
+<!-- TIMER -->
+
+
+<div class="top-bar">
+
+
+<div class="timer-box">
+
+⏳ Time:
+<span id="timer">
+
+30
+
+</span>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- LEVEL SECTION -->
+
+
+<section class="difficulty-section">
+
+
+<h2>
+
+🌈 Choose Your Sky Level
+
+</h2>
+
+
+
+<div class="difficulty-buttons">
+
+
+<button class="difficulty active" data-level="easy">
+
+🌱 Beginner Sky
+
+</button>
+
+
+<button class="difficulty" data-level="medium">
+
+☀️ Cloud Explorer
+
+</button>
+
+
+<button class="difficulty" data-level="hard">
+
+🔥 Storm Master
+
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- GUESS AREA -->
+
+
+<section class="guess-section">
+
+
+<h2>
+
+🎯 Predict The Hidden Number
+
+</h2>
+
+
+
+<p>
+
+The secret number is floating somewhere in the sky...
+
+</p>
+
+
+
+<input 
+
+type="number"
+
+id="guess-input"
+
+placeholder="Enter your number"
+
+
+
+>
+
+
+
+
+<button id="guess-btn">
+
+🚀 Launch Guess
+
+</button>
+
+
+
+<div id="message">
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- STATS -->
+
+
+<section>
+
+
+<h2>
+
+🏆 Adventure Progress
+
+</h2>
+
+
+
+<div class="stats">
+
+
+
+<div class="stat-card">
+
+☁️
+
+<h3>
+Attempts
+</h3>
+
+<span id="attempts">
+
+0
+
+</span>
+
+
+</div>
+
+
+
+
+
+<div class="stat-card">
+
+⭐
+
+<h3>
+Sky Points
+</h3>
+
+
+<span id="score">
+
+0
+
+</span>
+
+
+</div>
+
+
+
+
+
+<div class="stat-card">
+
+🎯
+
+<h3>
+Best Score
+</h3>
+
+
+<span id="best-score">
+
+0
+
+</span>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- HISTORY -->
+
+
+<section class="history">
+
+
+<h2>
+
+📜 Flight History
+
+</h2>
+
+
+<div id="history-list">
+
+No guesses yet...
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- BUTTONS -->
+
+
+<div class="extra-buttons">
+
+
+<button id="hint-btn">
+
+💡 Sky Hint
+
+</button>
+
+
+<button id="restart-btn">
+
+🔄 New Adventure
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+<footer>
+
+Made with ☁️ & ❤️
+
+</footer>
+
+
+
+
+</div>
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
